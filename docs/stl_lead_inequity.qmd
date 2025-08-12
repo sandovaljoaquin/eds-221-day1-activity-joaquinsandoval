@@ -58,7 +58,7 @@ stl_lead_plot
   ggsave(here::here("figs", "stl_lead_plot.png"), height = 5,
          width = 6)
 ```
-## There seems to be a negative correlation between proportion of white children and elevated blood lead levels.
+## The census tract with a higher percentage of white children generally had lower levels of lead blood percentage.
 
 ```{r}
 stl_lead_histogram <- ggplot(data = stl_blood_prop,
